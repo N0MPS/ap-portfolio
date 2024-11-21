@@ -1,0 +1,43 @@
+@media (max-width: 480px) {
+    .block{
+        padding-left: var(--mobileMargins);
+        padding-right: var(--mobileMargins);
+    }
+
+    #navAnchors{
+        display:none
+    }
+
+    #anchorWrapper>img{
+        display: inline;
+    }
+    
+    #diagonal{
+        margin-top: 0px;
+    }
+    
+    #hero>H1{
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    .block{
+        padding-left: var(--tabletMargins);
+        padding-right: var(--tabletMargins);
+    }
+    
+    #diagonal{
+        margin-top: 0px;
+    }
+    
+    #hero>H1{
+        margin-left: 0px;
+    }
+
+    #featured{
+        text-align: center;
+    }
+
+}

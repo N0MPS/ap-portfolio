@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP · Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Tenor+Sans&display=swap" rel="stylesheet">  
+    
+    <link 
+        rel="stylesheet"    
+        href="./style.css"
+    />
+
+    <link
+        rel="stylesheet"
+        href="./mediaQ.css"
+    />
+</head>
+   
+<body>
+    
+    <div id="navbar" class="block">
+        <img src="./assets/svg/isotipo.svg"/>
+        <div id="anchorWrapper">
+            <div id="navAnchors">
+                   <!--MISSING HREFS -->
+                    <a>ABOUT</a>
+                    <a>PROJECTS</a>
+                    <a>CONNECT</a>
+            </div>
+            <img src="./assets/svg/icon-menu.svg"/>
+        </div>
+    </div>
+
+    <div id="hero" class="block">
+        <H1>Design is all about connecting dots</H1>
+        <svg id="diagonal">
+                <defs>
+                    <marker id="leftMarker" markerWidth="3" markerHeight="3" refX="0" refY="1.5" orient="auto">
+                        <circle cx="1.5" cy="1.5" r="1.5"/>
+                     </marker>
+                
+                    <marker id="midMarker" markerWidth="3" markerHeight="3" refX="1.5" refY="1.5" orient="auto">
+                        <circle cx="1.5" cy="1.5" r="1.5"/>
+                    </marker>
+
+                    <marker id="rightMarker" markerWidth="3" markerHeight="3" refX="3" refY="1.5" orient="auto">
+                        <circle cx="1.5" cy="1.5" r="1.5"/>
+                    </marker>
+                </defs>
+                <line id="diagonalStroke" x1="0" y1="3" x2="100%" y2="97%" marker-start="url(#leftMarker)" marker-mid="url(#midMarker)" marker-end="url(#rightMarker)" />
+        </svg>
+    </div>
+
+    <div id="featured" class="block">
+        <!-- WHY NO PADDING RENDERS GAP???-->
+        <h2>Services</h2>
+        <br/>
+        <div class="cardList">
+            <div class="featuredCard">
+                <div>
+                    <p>PRODUCT</p>
+                    <h3>Strategy & Design</h3>
+                </div>
+
+                <img src="./assets/images/uxui.png"/>
+
+            </div>
+
+            <div class="featuredCard">
+                <div>
+                    <p>WEB</p>
+                    <h3>Development</h3>
+                </div>
+
+                <img src="./assets/images/webDev.png"/>
+            </div>
+
+            <div class="featuredCard">
+                <div>
+                    <p>3D</p>
+                    <h3>Modeling & rendering</h3>
+                </div>
+
+                <img src="./assets/images/3d.png"/>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="UX" class="block">
+
+    </div>
+
+    <div id="footer" class="block"> 
+        <h3>Let's connect!</h3>
+        <img src="./assets/svg/mail.svg"/>
+        <img src="./assets/svg/linkedin.svg"/>
+        <p>© 2024, Andrea Piñón. All rights reserved.</p>
+
+    </div>
+   
+</body>
+</html>
